@@ -1,0 +1,29 @@
+Telchargé l'image de cloudera : sudo docker pull cloudera/quickstart
+
+sudo docker run --hostname=quickstart.cloudera -p 8889:8888 --privileged=true -t -i cloudera/quickstart /usr/bin/docker-quickstart
+
+connect to localhost 8889 (user:cloudera, password:cloudera)
+
+hadoop fs -ls /user/cloudera/
+
+hadoop fs -mkdir /user/cloudera/trafic
+hadoop fs -mkdir /user/cloudera/pollution
+
+
+#transfere trafic.csv to cloudera container 
+open new terminal :
+
+sudo docker cp /home/fitec/Bureau/trafic.csv  dea2f83b7dee:/home/cloudera
+sudo docker cp /home/fitec/Bureau/DonneeNo2_Paris_Station.csv  dea2f83b7dee:/home/cloudera
+
+in container check : cd home/cloudra
+#push trafic.csv to hdfs
+
+hadoop fs -put /home/cloudera/trafic.csv /user/cloudera/trafic
+
+hadoop fs -put /home/cloudera/DonneeNo2_Paris_Station.csv /user/cloudera/pollution
+
+
+
+
+
