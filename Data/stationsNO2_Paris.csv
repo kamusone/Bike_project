@@ -1,0 +1,17 @@
+"station_code","station_name","station_adress","gps_lat","gps_long","zip_code"
+"ELYS","Avenue des Champs Elysées","Avenue des Champs Elysées 75008","48.865669","2.3203067",75008
+"HAUS","Boulevard Haussmann","35 Boulevard Haussmann 75009","48.8730999","2.3298644",75009
+"AUT","Boulevard Péripherique Auteuil","Bd Péripherique - Porte d Auteuil 75016","48.8530098","2.2723514",75016
+"BP_EST","Boulevard Périphérique Est","rue Edouard Lartet 75012","48.8397913","2.4137541",75012
+"SOULT","Boulevard Soult","37 bis boulevard Soult 75012","48.8467415","2.4112224",75012
+"PA12","PARIS 12ème","18 rue de la Brèche aux Loups 75012","48.8374685","2.3940801",75012
+"PA13","PARIS 13ème","11 rue George Eastman 75013","48.8288584","2.3593128",75013
+"PA18","PARIS 18ème","7 rue Ferdinand Flocon 75018","48.8918732","2.3460342",75018
+"PA01H","PARIS 1er Les Halles","Jardin des Halles-Al J. Supervielle 75001","48.8624514","2.3446423",75001
+"PA07","PARIS 7ème","Allée des Refuzniks 75007","48.8574108","2.2930813",75007
+"BASCH","Place Victor Basch","Avenue du Général Leclerc 75014","48.8311693","2.3295969",75014
+"OPERA","Place de l Opéra","place de l Opéra - terre plein sud 75002","48.8700729","2.3325517",75002
+"CELES","Quai des Célestins","28 quai des Célestins 75004","48.8526289","2.3600073",75004
+"BONAP","Rue Bonaparte","16 rue Bonaparte 75006","48.8562317","2.3343441",75006
+"EIFF3","Tour Eiffel 3ème étage","3ème étage Tour Eiffel - 300m 75007","48.8582602","2.2944991",75007
+"PA15L","Paris stade Lenglen","1 boulevard des frères Voisin 75015","48.8279346","2.2710856",75015
